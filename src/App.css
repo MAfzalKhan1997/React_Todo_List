@@ -26,3 +26,22 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.todoTable{
+  border-collapse: collapse;
+    text-align: center;
+    width: 90%;
+    font-size: 17px;
+    
+  }
+
+th, td{
+    /* background-color: yellow; */  
+    padding: 15px;
+    border-bottom: 1px solid rgba(66, 66, 66, 0.199);
+  
+  }
+
+ tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }  
