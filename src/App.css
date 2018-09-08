@@ -36,17 +36,15 @@
     
   }
 
-th, td{
-    /* background-color: yellow; */  
-    /* padding: 15px; */
+th, td{ 
     border-bottom: 1px solid rgba(66, 66, 66, 0.199);
     /* margin: 10px 0px; */
-    padding:5px 0px;
+    padding:2px 0px;
     text-transform: capitalize;
   }
 
  tr:nth-child(even) {
-    background-color: #f2f2f2; 
+    /* background-color: #f2f2f2;  */
   }  
 
   @media screen and (max-width: 576px) {
@@ -54,23 +52,8 @@ th, td{
       font-size: 14px;
     }
      
-}
+} 
 
-/* input{
-  background: none;
-  height: 35px;
-  width: 90% ;
-  padding: 5px 0px ;
-  text-transform: capitalize;
-  margin: 10px;
-  border: none;
-  outline: none;
-  font-size: 17px;
-  border-bottom: 1px solid rgba(66, 66, 66, 0.199);
-} */
-
-.inputArea {
-  /* text-transform: capitalize; */
-  /* margin: 10px; */
+.inputArea { 
   width: 90% ;
 }

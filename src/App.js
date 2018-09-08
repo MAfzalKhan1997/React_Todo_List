@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-// import logo from './logo.svg';
+import React, { Component } from 'react'; 
 import './App.css';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
@@ -9,6 +8,9 @@ import ArrowBackIos from '@material-ui/icons/ArrowBackIos';
 import Navigation from '@material-ui/icons/Navigation';
 import DeleteIcon from '@material-ui/icons/Delete';
 import EditIcon from '@material-ui/icons/Edit';
+
+import Typography from '@material-ui/core/Typography';
+// import ListIcon from '@material-ui/icons/ListAlt';
 // import 'typeface-roboto';
 
 class App extends Component {
@@ -113,18 +115,16 @@ class App extends Component {
     return (
       <div className="App">
  <center>
-        <div className="inputArea">
-        {/* <input 
-          placeholder="Enter something"
-          maxLength="17"
-          onChange={this.updateText}
-          value={this.state.text}
-          /> */}
+
+      <Typography variant="display2" >
+        ToDo List
+      </Typography>
+        <div className="inputArea"> 
+
         <TextField
           placeholder="e.g:Attend Meeting"
           label="Add Work ToDo"
           inputProps= {{maxLength:17}}
-          style={{ textTransform:'capitalize'  }}
           fullWidth={true}
           margin={'normal'}
           // required={true} "show * means required"
@@ -151,6 +151,7 @@ class App extends Component {
         <br/>
         {currentIndex != null && <h3>Editing ToDo # {currentIndex + 1} </h3>}
         </div>
+
         {this.renderTodos()}
  </center>
       </div>
