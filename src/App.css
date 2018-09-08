@@ -29,19 +29,48 @@
 
 .todoTable{
   border-collapse: collapse;
-    text-align: center;
+    text-align: left;
     width: 90%;
     font-size: 17px;
+    margin-top: 5px; 
     
   }
 
 th, td{
     /* background-color: yellow; */  
-    padding: 15px;
+    /* padding: 15px; */
     border-bottom: 1px solid rgba(66, 66, 66, 0.199);
-  
+    /* margin: 10px 0px; */
+    padding:5px 0px;
+    text-transform: capitalize;
   }
 
  tr:nth-child(even) {
     background-color: #f2f2f2; 
   }  
+
+  @media screen and (max-width: 576px) {
+    .todoTable {
+      font-size: 14px;
+    }
+     
+}
+
+/* input{
+  background: none;
+  height: 35px;
+  width: 90% ;
+  padding: 5px 0px ;
+  text-transform: capitalize;
+  margin: 10px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-bottom: 1px solid rgba(66, 66, 66, 0.199);
+} */
+
+textfield {
+  text-transform: capitalize;
+  margin: 10px;
+  width: 90% ;
+}
