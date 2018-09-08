@@ -69,8 +69,8 @@ th, td{
   border-bottom: 1px solid rgba(66, 66, 66, 0.199);
 } */
 
-textfield {
-  text-transform: capitalize;
-  margin: 10px;
+.inputArea {
+  /* text-transform: capitalize; */
+  /* margin: 10px; */
   width: 90% ;
 }

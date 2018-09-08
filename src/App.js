@@ -123,7 +123,13 @@ class App extends Component {
         <TextField
           placeholder="e.g:Attend Meeting"
           label="Add Work ToDo"
-          maxLength="17"
+          inputProps= {{maxLength:17}}
+          style={{ textTransform:'capitalize'  }}
+          fullWidth={true}
+          margin={'normal'}
+          // required={true} "show * means required"
+          // error={true} "shows like there is error"
+          // multiline={true} "behaves like textarea"
           onChange={this.updateText}
           value={this.state.text}
         />
