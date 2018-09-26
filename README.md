@@ -1,4 +1,4 @@
-Live Link:https://todo-mak.firebaseapp.com/
+Live View:https://todo-mak.firebaseapp.com/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
